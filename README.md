@@ -21,8 +21,8 @@ npm install @spark4444/better-date-js
 
 ## Examples
 ```javascript
-let Date = require("@spark4444/better-date-js")
-let date = new Date();
+const Date = require("@spark4444/better-date-js");
+const date = new Date();
 
 // Get day in different formats
 console.log(date.getDay()); // "Sunday"
